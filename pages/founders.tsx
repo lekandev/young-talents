@@ -1,17 +1,10 @@
-import Head from "next/head";
-import Nav from "../components/Nav/Nav";
-import Hero from "../components/Hero/Hero";
-import About from "../components/About/About";
-import Statements from "./../components/Statements/Statements";
-import WhatWeDo from "./../components/WhatWeDo/WhatWeDo";
-import Contact from "./../components/Contact/Contact";
-import Footer from "./../components/Footer/Footer";
+import Head from "next/head"
 
-export default function Home() {
+export default function founders() {
   return (
-    <div className="home">
+    <div className="founders">
       <Head>
-        <title>Young Talents | Home</title>
+        <title>Young Talents | Founders</title>
         <meta name="description" content="Nurturing and developing skills" />
         <meta name="author" content="Mohammed Kabir Hussaini" />
         <meta httpEquiv="Content-Type" content="text/html;charset=UTF-8" />
@@ -25,15 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <Nav />
-        <Hero />
-        <About />
-        <Statements />
-        <WhatWeDo />
-        <Contact />
-        <Footer />
-      </main>
+      <h1 className="founders__title">Na we be the founders</h1>
     </div>
   );
 }
