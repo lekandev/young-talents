@@ -1,0 +1,20 @@
+@import "../utils/variables.scss";
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $primary-color;
+    color: $primary-text-color;
+
+    .nav__logo {}
+
+    .nav__links {
+        display: flex;
+        list-style: none;
+
+        .nav__link {
+            margin-right: 40px;
+        }
+    }
+}
