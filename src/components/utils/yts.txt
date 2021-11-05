@@ -1,0 +1,12 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Notable&display=swap');
+</style>
+CSS rules to specify families
+
+font-family: 'Lato', sans-serif;
+font-family: 'Notable', sans-serif;
+
+
+#fefae0
+#081c15
+#2f3e46

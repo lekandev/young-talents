@@ -1,3 +1,7 @@
+import React from "react";
+
+import "./Hero.scss"
+
 const Hero = () => {
   return (
     <div className="hero">
@@ -14,7 +18,7 @@ const Hero = () => {
 
       <div className="hero__img">
           <div className="hero__img--text">
-              Talent equal skill
+              {/* Talent equal skill */}
           </div>
       </div>
     </div>

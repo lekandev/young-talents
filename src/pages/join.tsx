@@ -1,26 +1,12 @@
+import React from "react";
+
 import Form from "../components/Form/Form";
-import Nav from "./../components/Nav/Nav";
-import Footer from './../components/Footer/Footer';
-import Head from 'next/head';
+import Nav from "../components/Nav/Nav";
+import Footer from "../components/Footer/Footer";
 
 export default function Join() {
   return (
     <div className="join">
-      <Head>
-        <title>Young Talents | Join</title>
-        <meta name="description" content="Nurturing and developing skills" />
-        <meta name="author" content="Mohammed Kabir Hussaini" />
-        <meta httpEquiv="Content-Type" content="text/html;charset=UTF-8" />
-        <meta httpEquiv="X-UA-Compatible" content="IE=7" />
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta
-          name="keywords"
-          content="Young talents, skill acquisition, training, talent showcase"
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       <Nav />
       <div className="join__content">
         <h2 className="join__title">Join Young Talents</h2>

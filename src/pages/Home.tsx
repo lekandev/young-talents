@@ -1,4 +1,5 @@
-import Head from "next/head";
+import React from "react";
+
 import Nav from "../components/Nav/Nav";
 import Hero from "../components/Hero/Hero";
 import About from "../components/About/About";
@@ -10,7 +11,7 @@ import Footer from "./../components/Footer/Footer";
 export default function Home() {
   return (
     <div className="home">
-      <Head>
+      {/* <Head>
         <title>Young Talents | Home</title>
         <meta name="description" content="Nurturing and developing skills" />
         <meta name="author" content="Mohammed Kabir Hussaini" />
@@ -23,7 +24,7 @@ export default function Home() {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />
-      </Head>
+      </Head> */}
 
       <main>
         <Nav />
