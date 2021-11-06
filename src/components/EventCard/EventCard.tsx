@@ -18,7 +18,6 @@ const EventCard = (props: Props) => {
     return (
         <div className="eventCard">
             <div className="eventCard__img">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src={props.img} alt={props.alt} />
             </div>
 
