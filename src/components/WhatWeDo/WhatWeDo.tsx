@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 const WhatWeDo = () => {
   return (
     <div className="whatWeDo">
