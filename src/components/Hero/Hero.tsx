@@ -13,7 +13,7 @@ const Hero = () => {
           talent showcase
         </p>
 
-        <a href="#" className="hero__button">More</a>
+        <a href="/" className="hero__button">More</a>
       </div>
 
       <div className="hero__img">
