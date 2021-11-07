@@ -1,0 +1,10 @@
+@import "./components/utils/variables.scss";
+
+a {
+    color: $primary-text-color;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-family: $lato;
+}

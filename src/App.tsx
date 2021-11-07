@@ -1,7 +1,6 @@
-import React from 'react';
-
 import Home from "./pages/Home"
-import './App.css';
+import Join from "./pages/Join/Join";
+import './App.scss';
 
 function App() {
   return (

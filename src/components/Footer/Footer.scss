@@ -1,0 +1,9 @@
+@import "../utils/variables.scss";
+
+.footer {
+    padding: 30px;
+    background-color: $primary-color;
+    color: $primary-text-color;
+    display: grid;
+    place-content: center;
+}

@@ -14,12 +14,16 @@ const About = () => {
             consectetur adipisicing elit. Molestias neque accusantium quaerat
             tenetur eaque ipsa id veritatis doloremque. Esse doloribus accusamus
             laborum voluptatibus neque, non quaerat qui inventore quod
+            quaerat qui inventore quod obcaecati! Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Molestias neque accusantium quaerat
+            tenetur eaque ipsa id veritatis doloremque. Esse doloribus accusamus
+            laborum voluptatibus neque, non quaerat qui inventore quod
             obcaecati!
           </p>
         </div>
 
         <div className="about__img">
-          <img src="../../assets/hero_img.jpg" alt="Young Talents" />
+          <img src="/images/about_img.jpeg" alt="Young Talents" />
         </div>
       </div>
     </div>

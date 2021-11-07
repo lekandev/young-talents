@@ -1,0 +1,35 @@
+@import "../utils/variables.scss";
+
+.statements {
+    display: grid;
+    margin-bottom: 100px;
+
+    .statements__container {
+        margin: auto;
+        display: flex;
+
+        .mission, .vision {
+            width: 400px;
+            text-align: center;
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+
+        .mission {
+            border-right: 1px solid $primary-color;
+            padding-right: 40px;
+
+            .mission__title {
+                margin-bottom: 10px;
+            }
+        }
+
+        .vision {
+            padding-left: 40px;
+
+            .vision__title {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

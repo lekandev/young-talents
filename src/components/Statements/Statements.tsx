@@ -1,3 +1,5 @@
+import "./Statements.scss";
+
 const Statements = () => {
   return (
     <div className="statements">

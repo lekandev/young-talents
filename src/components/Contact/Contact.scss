@@ -1,0 +1,61 @@
+@import "../utils/variables";
+
+.contact {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    .contact__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .contact__info {
+            width: 300px;
+            text-align: center;
+            padding-right: 20px;
+
+            h3 {
+                margin-bottom: 20px;
+            }
+        }
+
+        .contact__form {
+            display: flex;
+            flex-direction: column;
+            padding: 40px 20px;
+
+            input {
+                width: 280px;
+                height: 40px;
+            }
+
+            input::placeholder {
+                color: $secondary-text-color;
+            }
+
+            .contact__name, .contact__email, .contact__message {
+                padding: 10px;
+                margin-bottom: 40px;
+                outline: none;
+                border-left: 1px solid $primary-color;
+                border-bottom: 1px solid $primary-color;
+                border-top: none;
+                border-right: none;
+                background-color: transparent;
+            }
+
+            .contact__button {
+                background-color: $tertiary-color;
+                color: $primary-text-color;
+                border: none;
+                transition: 0.3s ease-in;
+            }
+
+            .contact__button:hover {
+                background-color: transparent;
+                color: $secondary-text-color;
+                border: 1px solid $tertiary-color;
+            }
+        }
+    }
+}
