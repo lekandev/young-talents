@@ -1,0 +1,36 @@
+@import "../utils/variables.scss";
+
+.form {
+
+    .form__form {
+
+        .form__names {
+            margin-bottom: 40px;
+
+            input {
+                width: 260px;
+                height: 45px;
+                padding: 10px;
+                outline: none;
+                border: 1px solid $primary-color;
+                background-color: transparent;
+            }
+
+            .form__firstName {
+                margin-right: 50px;
+            }
+        }
+
+        .form__email, .form__number, .form__address, .form__about {
+            width: 570px;
+            height: 45px;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 40px;
+            padding: 10px;
+            outline: none;
+            border: 1px solid $primary-color;
+            background-color: transparent;
+        }
+    }
+}

@@ -1,4 +1,4 @@
-// import "./Form.scss";
+import "./Form.scss";
 
 const Form = () => {
   return (
@@ -10,13 +10,11 @@ const Form = () => {
             className="form__firstName"
             placeholder="First Name"
           />
-          ame
           <input
             type="text"
             className="form__lastName"
             placeholder="Last Name"
           />
-          ame
         </div>
 
         <input type="email" className="form__email" placeholder="Email" />
