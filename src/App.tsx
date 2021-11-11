@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Join from "./pages/Join/Join";
-import Events from "./pages/Events";
+import Events from "./pages/events";
 import Gallery from "./pages/Gallery/Gallery";
 import "./App.scss";
 
