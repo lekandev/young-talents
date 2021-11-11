@@ -10,7 +10,9 @@
     background-color: $primary-color;
     color: $primary-text-color;
 
-    .nav__logo {}
+    .nav__logo {
+        font-size: 1.4rem;
+    }
 
     .nav__links {
         display: flex;
@@ -22,6 +24,7 @@
     }
 
     .nav__button {
-        padding: 5 35px;
+        padding: 5px 35px;
+        background-color: $tertiary-color;
     }
 }

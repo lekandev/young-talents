@@ -15,19 +15,19 @@
 
         .hero__title {
             font-size: 3.5rem;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
             font-family: $notable;
             letter-spacing: 0.2rem;
         }
 
         .hero__tagline {
-            margin-bottom: 30px;
+            margin-bottom: 40px;
             letter-spacing: 0.1rem;
         }
 
         .hero__button {
-            padding: 10px 40px;
-            background-color: #081c15;
+            padding: 10px 20px;
+            background-color: $tertiary-color;
         }
     }
     .hero__img {

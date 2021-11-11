@@ -1,5 +1,3 @@
-import React from "react";
-
 import EventCard from "../components/EventCard/EventCard";
 import Footer from "../components/Footer/Footer";
 import Nav from "../components/Nav/Nav";
@@ -20,7 +18,7 @@ export default function events() {
       </div>
 
       <EventCard
-        img=""
+        img="/images/talent_acquisition.jpg"
         alt="Dummy class"
         title="Dummy class"
         desc="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis excepturi fugit vitae doloribus possimus, recusandae sed, voluptatibus, molestiae consequatur autem quidem nostrum laboriosam hic inventore!"
@@ -29,7 +27,7 @@ export default function events() {
       />
 
       <EventCard
-        img=""
+        img="/images/talent_acquisition.jpg"
         alt="Dummy class"
         title="Dummy class"
         desc="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis excepturi fugit vitae doloribus possimus, recusandae sed, voluptatibus, molestiae consequatur autem quidem nostrum laboriosam hic inventore!"
@@ -38,7 +36,7 @@ export default function events() {
       />
 
       <EventCard
-        img=""
+        img="/images/talent_acquisition.jpg"
         alt="Skill acquisition class"
         title="Skill acquisition class"
         desc="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis excepturi fugit vitae doloribus possimus, recusandae sed, voluptatibus, molestiae consequatur autem quidem nostrum laboriosam hic inventore!"
