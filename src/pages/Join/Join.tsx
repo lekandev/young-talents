@@ -1,11 +1,9 @@
 import Form from "../../components/Form/Form";
-import Nav from "../../components/Nav/Nav";
-import Footer from "../../components/Footer/Footer";
+import "./Join.scss";
 
 export default function Join() {
   return (
     <div className="join">
-      <Nav />
       <div className="join__content">
         <h2 className="join__title">Join Young Talents</h2>
 
@@ -17,7 +15,6 @@ export default function Join() {
         </p>
       </div>
       <Form />
-      <Footer />
     </div>
   );
 }

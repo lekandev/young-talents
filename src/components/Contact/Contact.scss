@@ -45,16 +45,15 @@
             }
 
             .contact__button {
-                background-color: $tertiary-color;
+                background-color: $primary-color;
                 color: $primary-text-color;
-                border: none;
+                border: 1px solid $primary-color;
                 transition: 0.3s ease-in;
             }
 
             .contact__button:hover {
                 background-color: transparent;
                 color: $secondary-text-color;
-                border: 1px solid $tertiary-color;
             }
         }
     }

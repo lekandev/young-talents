@@ -1,0 +1,21 @@
+@import "../../components/utils/variables.scss";
+
+.events {
+    margin-top: 130px;
+
+    .events__content {
+        text-align: center;
+        margin: 0 100px 25px 100px;
+        padding-bottom: 25px;
+        border-bottom: 2px solid $primary-color;
+
+        .events__title {
+            margin-bottom: 15px;
+        }
+    }
+
+    .events__cards {
+        width: 100%;
+        padding: 0 3%;
+    }
+}

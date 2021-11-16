@@ -27,7 +27,8 @@
 
         .hero__button {
             padding: 10px 20px;
-            background-color: $tertiary-color;
+            color: $secondary-text-color;
+            border: 3px solid $primary-color;
         }
     }
     .hero__img {

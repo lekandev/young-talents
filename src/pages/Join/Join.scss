@@ -1,0 +1,16 @@
+@import "../../components/utils/variables.scss";
+
+.join {
+    margin-top: 130px;
+
+    .join__content {
+        text-align: center;
+        margin: 0 17.5% 30px 17.7%;
+        border: 1px solid $primary-color;
+        padding: 10px;
+
+        .join__title {
+            margin-bottom: 15px;
+        }
+    }
+}

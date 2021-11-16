@@ -1,14 +1,19 @@
 @import "../utils/variables.scss";
 
 .form {
+    display: grid;
+    // place-content: center;
 
     .form__form {
+        width: 65%;
+        margin: 0 auto;
 
         .form__names {
             margin-bottom: 40px;
 
             input {
-                width: 260px;
+                width: 45%;
+                // width: 260px;
                 height: 45px;
                 padding: 10px;
                 outline: none;
@@ -17,12 +22,14 @@
             }
 
             .form__firstName {
-                margin-right: 50px;
+                margin-right: 10%;
+                // margin-right: 50px;
             }
         }
 
-        .form__email, .form__number, .form__address, .form__about {
-            width: 570px;
+        .form__email, .form__number, .form__address, .form__skills, .form__about {
+            width: 100%;
+            // width: 570px;
             height: 45px;
             display: flex;
             flex-direction: column;
@@ -31,6 +38,25 @@
             outline: none;
             border: 1px solid $primary-color;
             background-color: transparent;
+        }
+
+        .form__button {
+            width: 100%;
+            height: 45px;
+            margin-bottom: 40px;
+            background-color: $primary-color;
+            border: none;
+            transition: .3s ease-in;
+            color: $primary-text-color;
+        }
+
+        .form__button:hover {
+            width: 100%;
+            height: 45px;
+            margin-bottom: 40px;
+            background-color: transparent;
+            border: 1px solid $primary-color;
+            color: $secondary-text-color;
         }
     }
 }

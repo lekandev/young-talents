@@ -14,7 +14,7 @@ const Hero = () => {
         </p>
 
         <Link to="/events" className="hero__button">
-          View upcoming events
+          Upcoming events
         </Link>
       </div>
 

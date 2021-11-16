@@ -1,0 +1,24 @@
+.gallery {
+    height: 100%;
+    margin-top: 150px;
+
+    .gallery__title {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .gallery__container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+        margin: 0 70px;
+
+        .gallery__img {
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}

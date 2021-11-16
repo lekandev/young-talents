@@ -1,14 +1,19 @@
 @import "../utils/variables.scss";
 
 .nav {
-    width: 100%;
+    width: 95%;
     height: 70px;
-    padding: 0 50px;
+    padding: 0 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: $primary-color;
     color: $primary-text-color;
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    position: fixed;
+    top: 0;
+    left: 2.5%;
 
     .nav__logo {
         font-size: 1.4rem;
@@ -18,6 +23,15 @@
         display: flex;
         list-style: none;
 
+        .nav__link {
+            // border-bottom: 2px solid $secondary-color;
+            transition: 2s ease-in-out;
+        }
+
+        .nav__link:hover {
+            border-bottom: 1px solid $secondary-color;
+        }
+
         .nav__link:not(:last-child) {
             margin-right: 40px;
         }
@@ -25,6 +39,7 @@
 
     .nav__button {
         padding: 5px 35px;
-        background-color: $tertiary-color;
+        border: 3px solid $secondary-color;
+        border-bottom-right-radius: 20px;
     }
 }

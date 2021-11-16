@@ -27,13 +27,13 @@ export default function Home() {
       </Head> */}
 
       <main>
-        <Nav />
+        {/* <Nav /> */}
         <Hero />
         <About />
         <Statements />
         <WhatWeDo />
         <Contact />
-        <Footer />
+        {/* <Footer /> */}
       </main>
     </div>
   );

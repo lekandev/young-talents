@@ -20,11 +20,13 @@ const Form = () => {
         <input type="email" className="form__email" placeholder="Email" />
         <input type="number" className="form__number" placeholder="Number" />
         <input type="text" className="form__address" placeholder="Address" />
+        <input type="text" className="form__skills" placeholder="list ya skills" />
         <input
           type="text"
           className="form__about"
           placeholder="Tell us something about you"
         />
+        <input className="form__button" type="submit" value="Send" />
       </form>
     </div>
   );

@@ -1,18 +1,39 @@
+@import "../utils/variables.scss";
+
 .eventCard {
-    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
+    // margin-bottom: 25px;
 
     .eventCard__img {
-        width: 45%;
+        width: 50%;
 
         img {
-            width: 100%;
             height: 100%;
         }
     }
 
     .eventCard__content {
-        padding: 70px;
+        padding: 10px 0 5px 30px;
+
+        .eventCard__title {
+            margin-bottom: 10px;
+        }
+
+        .eventCard__desc {
+            margin-bottom: 10px;
+        }
+
+        .eventCard__date {
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        .eventCard__button {
+            color: $secondary-text-color;
+            padding: 5px 20px;
+            border: 2px solid $primary-color;
+        }
     }
 }
